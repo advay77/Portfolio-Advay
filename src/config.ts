@@ -12,7 +12,7 @@ export const config = {
     },
    about: {
     title: "About Me",
-    description: `Hi Everyone, I am Advay Anand from India. Ex-Intern in Zero Day Arena.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
+    description: `Hi Everyone, I am Advay Anand from India.Intern in Crensa.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
 },
     experiences: [
         {

@@ -24,13 +24,18 @@
 }
 
 .about-me p {
-  font-size: 33px;
-  font-weight: 600;
-  line-height: 1.8;
-  letter-spacing: 2px;
-  word-spacing: 2px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  word-spacing: 0.5px;
   white-space: pre-line;
   margin: 25px 0;
+  margin-bottom: 1.5em;
+  color: #fff;
+  font-family: var(--font-2);
+  text-align: left;
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
