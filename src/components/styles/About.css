@@ -26,8 +26,11 @@
 .about-me p {
   font-size: 33px;
   font-weight: 600;
-  line-height: 36px;
-  letter-spacing: 1px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  white-space: pre-line;
+  margin: 25px 0;
 }
 
 @media only screen and (min-width: 600px) {

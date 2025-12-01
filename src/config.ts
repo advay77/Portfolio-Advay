@@ -1,19 +1,19 @@
 export const config = {
     developer: {
-        name: "Huzaif",
-        fullName: "Huzaif Ahmed",
-        title: "Full Stack Developer",
+        name: "Advay Anand",
+        fullName: "Advay Anand",
+        title: "Full Stack AI Developer",
         description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star."
     },
     social: {
-        github: "huzaifahmedz",
-        email: "dev.huzaif@gmail.com",
+        github: "advay77",
+        email: "advayanand87@gmail.com",
         location: "India"
     },
-    about: {
-        title: "About Me",
-        description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star. I specialize in building modern web applications with React, Node.js, and cutting-edge technologies."
-    },
+   about: {
+    title: "About Me",
+    description: `Hi Everyone, I am Advay Anand from India. Ex-Intern in Zero Day Arena.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
+},
     experiences: [
         {
             position: "Frontend Developer",
@@ -82,11 +82,11 @@ export const config = {
         }
     ],
     contact: {
-        email: "dev.huzaif@gmail.com",
-        github: "https://github.com/huzaifahmedz",
-        linkedin: "https://www.linkedin.com",
-        twitter: "https://x.com",
-        instagram: "https://www.instagram.com"
+        email: "advayanand87@gmail.com",
+        github: "https://github.com/advay77",
+        linkedin: "https://www.linkedin.com/in/advay-anand-a89024277/",
+        twitter: "https://x.com/AnandAdvay91289",
+        instagram: "https://www.instagram.com/advay_anand_7/"
     },
     skills: {
         develop: {
