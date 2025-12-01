@@ -22,7 +22,7 @@ const imageUrls = [
   "/images/javascript.webp",
   "/images/html5.png",
   "/images/css3.png",
-  "/images/tailwind.png",
+  "/images/tailwindcss.png",
   "/images/firebase.png",
   "/images/supabase.png",
   "/images/github.png",
