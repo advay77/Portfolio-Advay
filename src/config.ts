@@ -12,7 +12,7 @@ export const config = {
     },
    about: {
     title: "About Me",
-    description: `Hi Everyone, I am Advay Anand from India.Intern in Crensa.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
+    description: `Hi Everyone, I am Advay Anand from India . Intern  in  Crensa.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
 },
     experiences: [
         {
@@ -96,10 +96,10 @@ export const config = {
             tools: ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS", "Framer Motion", "Three.js"]
         },
         design: {
-            title: "DESIGN",
-            description: "UI/UX design and modern web interfaces",
-            details: "Creating beautiful and intuitive user experiences with focus on accessibility and user-centered design principles.",
-            tools: ["UI Design", "UX Design", "Figma", "Photoshop", "Motion Design", "Responsive Design", "Accessibility", "Prototyping"]
+            title: "FREELANCING",
+            description: "Freelancing and delivered 10+ client projects with modern web interfaces",
+            details: "Creating beautiful and intuitive user experiences with focus on accessibility and user-centered principles.",
+            tools: ["UI/UX", "Responsive Design", "Accessibility", "Prototyping"]
         }
     }
 };

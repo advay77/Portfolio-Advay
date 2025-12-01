@@ -26,11 +26,11 @@
 .about-me p {
   font-size: 18px;
   font-weight: 300;
-  line-height: 2;
-  letter-spacing: 0.3px;
-  word-spacing: 0.5px;
+  line-height: 5;
+  letter-spacing: 2px;
+  word-spacing: 1px;
   white-space: pre-line;
-  margin: 25px 0;
+  margin: 25px ;
   margin-bottom: 1.5em;
   color: #fff;
   font-family: var(--font-2);
