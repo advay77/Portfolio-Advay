@@ -100,7 +100,7 @@ export const config = {
             id: 4,
             title: "CodeForBharat (HACKATHON WEBSITE)",
             category: "Frontend",
-            technologies: "Next.js, Tailwind CSS, TypeScript",
+            technologies: "Next.js, Tailwind CSS, TypeScript, React bits",
             image: "/images/codeforbharat.png",
             deployedLink: "https://www.codeforbharat.xyz/"
         },
