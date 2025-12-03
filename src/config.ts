@@ -18,7 +18,7 @@ export const config = {
         {
             position: "Frontend Developer",
             company: "Growbinar",
-            period: "June 1st - 2025 July",
+            period: "June 1st - July 2025",
             location: "Remote",
             description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build their platform.",
             responsibilities: [
