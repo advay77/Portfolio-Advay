@@ -17,23 +17,22 @@ export const config = {
     experiences: [
         {
             position: "Frontend Developer",
-            company: "SelectSkillSet",
-            period: "2024 - Present",
+            company: "Growbinar",
+            period: "June 1st - 2025 July",
             location: "Remote",
-            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
+            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build their platform.",
             responsibilities: [
-                "Building responsive and interactive user interfaces using React and Next.js",
-                "Implementing modern UI/UX designs with TailwindCSS and Framer Motion",
+                "Building responsive and interactive user interfaces using React.js and Docker",
                 "Optimizing application performance and ensuring cross-browser compatibility",
                 "Collaborating with design and backend teams to deliver high-quality features"
             ],
-            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "TypeScript"]
+            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "Docker", "Jira"]
         },
         {
             position: "Full Stack Developer",
-            company: "Tekisky",
-            period: "2023 - 2024",
-            location: "Remote",
+            company: "ZeroDayArena",
+            period: "2nd September - Dec 2025",
+            location: "Delhi",
             description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
             responsibilities: [
                 "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
@@ -41,8 +40,36 @@ export const config = {
                 "Built responsive user interfaces and optimized application performance",
                 "Worked on database design and backend architecture"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "JavaScript", "MERN Stack"]
-        }
+            technologies: ["React", "Node.js", "Supabase", "Express", "JavaScript", "Typescript",]
+        },
+{
+    position: "Freelance Full Stack Developer",
+    company: "Self-Employed",
+    period: "25th August – Present",
+    location: "Delhi / Remote",
+
+    description:
+        "Delivered full-stack solutions for 10+ clients, handling everything from UI/UX to backend, deployment, SEO, and performance optimization.",
+
+    responsibilities: [
+        "Built and deployed production-grade web applications for diverse clients",
+        "Created responsive, fast, and SEO-optimized websites",
+        "Developed secure APIs and integrated Supabase-based authentication",
+        "Handled hosting, domain setup, performance tuning, and maintenance"
+    ],
+
+    technologies: [
+        "React",
+        "Node.js",
+        "Supabase",
+        "Express",
+        "JavaScript",
+        "TypeScript",
+        "TailwindCSS",
+        "Firebase"
+    ]
+}
+
     ],
     projects: [
         {
