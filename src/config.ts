@@ -117,7 +117,7 @@ export const config = {
     },
     skills: {
         develop: {
-            title: "DEVELOP",
+            title: "WEB DEVELOPER",
             description: "Full-stack development with modern web technologies",
             details: "Building scalable web applications using React, Node.js, and cutting-edge frameworks. Specializing in creating responsive, performant, and accessible user interfaces.",
             tools: ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS", "Framer Motion", "Three.js"]
