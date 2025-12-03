@@ -77,36 +77,40 @@ export const config = {
             title: "VOCALX AI(AI Interviewer HR)",
             category: "Full Stack",
             technologies: "Web Sockets, GROQ API, ATS, Google OAuth, ElevenLabs, React, Supabase, TypeScript",
-            image: "/images/vocalx.png"
+            image: "/images/vocalx.png",
+            deployedLink: "https://www.vocalx.xyz/"
         },
         {
             id: 2,
             title: "Go-Wheels (Car rental website)",
             category: "Full Stack",
             technologies: "TypeScript, Firebase, Tailwind CSS, Node.js, Express.js",
-            image: "/images/gowheels.png"
+            image: "/images/gowheels.png",
+            deployedLink: "https://www.gowheels.online/"
         },
-         {
+        {
             id: 3,
             title: "Neura-Twin 2.0",
             category: "Full Stack",
             technologies: "Next.js, React, Pincone, Zod(Validation), Framer Motion, WebSpeech API, Howler.js, Tailwind CSS, TypeScript",
-            image: "/images/neuratwin.png"
+            image: "/images/neuratwin.png",
+            deployedLink: "https://neura-twin-2-0.vercel.app/"
         },
         {
             id: 4,
             title: "CodeForBharat (HACKATHON WEBSITE)",
             category: "Frontend",
             technologies: "Next.js, Tailwind CSS, TypeScript",
-            image: "/images/codeforbharat.png"
+            image: "/images/codeforbharat.png",
+            deployedLink: "https://www.codeforbharat.xyz/"
         },
-       
         {
             id: 5,
-            title: "Neural Network Visualizer",
-            category: "Full Stack",
-            technologies: "Python, TensorFlow.js, D3.js, Next.js, WebGL, TypeScript",
-            image: "/images/project-5.webp"
+            title: "TechMasters-India",
+            category: "Frontend",
+            technologies: "Next.js, React, Tailwind CSS, TypeScript, React bits",
+            image: "/images/techmasters.png",
+            deployedLink: "https://techmasters-rouge.vercel.app/"
         }
     ],
     contact: {

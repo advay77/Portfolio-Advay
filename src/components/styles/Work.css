@@ -27,6 +27,21 @@
   padding-right: 120px;
   position: relative;
 }
+.work-box-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.work-box-link:hover {
+    transform: translateY(-5px);
+}
+
+.work-box-link:active {
+    transform: translateY(0);
+}
+
 .work-box {
   padding: 80px;
   display: flex;
@@ -37,7 +52,14 @@
   flex-shrink: 0;
   gap: 50px;
   justify-content: start;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
+
+.work-box:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
 .work-flex .work-box:nth-child(even) {
   flex-direction: column-reverse;
 }

@@ -56,21 +56,28 @@ const Work = () => {
         </h2>
         <div className="work-flex">
           {config.projects.map((project, index) => (
-            <div className="work-box" key={project.id}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>{project.title}</h4>
-                    <p>{project.category}</p>
+            <a 
+              href={project.deployedLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              key={project.id}
+              className="work-box-link"
+            >
+              <div className="work-box">
+                <div className="work-info">
+                  <div className="work-title">
+                    <h3>0{index + 1}</h3>
+                    <div>
+                      <h4>{project.title}</h4>
+                      <p>{project.category}</p>
+                    </div>
                   </div>
+                  <h4>Tools and features</h4>
+                  <p>{project.technologies}</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>{project.technologies}</p>
+                <WorkImage image={project.image} alt={project.title} />
               </div>
-              <WorkImage image={project.image} alt={project.title} />
-            </div>
+            </a>
           ))}
         </div>
       </div>

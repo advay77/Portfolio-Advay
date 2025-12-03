@@ -92,6 +92,15 @@ const Navbar = () => {
               <HoverLinks text="CONTACT" />
             </a>
           </li>
+          <li>
+            <a 
+              href="https://drive.google.com/file/d/12-gnGPTykpFkK0kQ3O5xO0N3Qps6sz_9/view" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              
+            </a>
+          </li>
         </ul>
       </div>
 
