@@ -74,32 +74,33 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "AI-Powered Code Review Assistant",
+            title: "VOCALX AI(AI Interviewer HR)",
             category: "Full Stack",
-            technologies: "Python, TensorFlow, React, FastAPI, PostgreSQL, Docker",
-            image: "/images/project-1.webp"
+            technologies: "Web Sockets, GROQ API, ATS, Google OAuth, ElevenLabs, React, Supabase, TypeScript",
+            image: "/images/vocalx.png"
         },
         {
             id: 2,
-            title: "Real-time Collaborative Whiteboard",
+            title: "Go-Wheels (Car rental website)",
             category: "Full Stack",
-            technologies: "TypeScript, WebRTC, Socket.io, Canvas API, Node.js, Redis",
-            image: "/images/project-2.webp"
+            technologies: "TypeScript, Firebase, Tailwind CSS, Node.js, Express.js",
+            image: "/images/gowheels.png"
         },
-        {
+         {
             id: 3,
-            title: "Blockchain Voting System",
+            title: "Neura-Twin 2.0",
             category: "Full Stack",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask",
-            image: "/images/project-3.webp"
+            technologies: "Next.js, React, Pincone, Zod(Validation), Framer Motion, WebSpeech API, Howler.js, Tailwind CSS, TypeScript",
+            image: "/images/neuratwin.png"
         },
         {
             id: 4,
-            title: "Cloud Infrastructure Dashboard",
-            category: "Full Stack",
-            technologies: "Go, Kubernetes, Grafana, Prometheus, Terraform, React",
-            image: "/images/project-4.webp"
+            title: "CodeForBharat (HACKATHON WEBSITE)",
+            category: "Frontend",
+            technologies: "Next.js, Tailwind CSS, TypeScript",
+            image: "/images/codeforbharat.png"
         },
+       
         {
             id: 5,
             title: "Neural Network Visualizer",
