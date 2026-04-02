@@ -91,7 +91,7 @@ export const config = {
             id: 1,
             title: "INTERVIEWX AI(AI Interviewer HR)",
             category: "Full Stack",
-            technologies: "Web Sockets, GROQ API, ATS, Google OAuth, ElevenLabs, React, Supabase, TypeScript",
+            technologies: "Web Sockets, VAPI, Zod, Hugging Face, Transformers, Supabase, TypeScript",
             image: "/images/image.png",
             deployedLink: "https://interviewx-sooty.vercel.app/"
         },
