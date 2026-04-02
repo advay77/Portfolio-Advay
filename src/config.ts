@@ -12,7 +12,7 @@ export const config = {
     },
     about: {
         title: "About Me",
-        description: `Hi Everyone, I am Advay Anand from India . Intern  in  Crensa.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
+        description: `Hi Everyone, I am Advay Anand from India.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
     },
     experiences: [
         {
@@ -89,11 +89,11 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "VOCALX AI(AI Interviewer HR)",
+            title: "INTERVIEWX AI(AI Interviewer HR)",
             category: "Full Stack",
             technologies: "Web Sockets, GROQ API, ATS, Google OAuth, ElevenLabs, React, Supabase, TypeScript",
-            image: "/images/vocalx.png",
-            deployedLink: "https://www.vocalx.xyz/"
+            image: "/images/image.png",
+            deployedLink: "https://interviewx-sooty.vercel.app/"
         },
         {
             id: 2,

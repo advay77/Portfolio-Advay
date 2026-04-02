@@ -5,6 +5,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
+import { config } from "../config";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";
@@ -60,22 +61,22 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/advay77" target="_blank">
+          <a href={config.contact.github} target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/advay-anand-a89024277/" target="_blank">
+          <a href={config.contact.linkedin} target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com/AnandAdvay91289" target="_blank">
+          <a href={config.contact.twitter} target="_blank">
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/advay_anand_7/" target="_blank">
+          <a href={config.contact.instagram} target="_blank">
             <FaInstagram />
           </a>
         </span>

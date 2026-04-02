@@ -34,14 +34,30 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
-a.contact-social {
-  font-size: 25px;
-  border-bottom: 1px solid #ccc;
-}
 .contact-box h2 {
   font-weight: 400;
   font-size: 23px;
   margin: 0;
+}
+.social-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 40px;
+  margin-top: 15px;
+}
+a.contact-social {
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+a.contact-social:hover {
+  border-bottom-color: var(--accentColor);
+  color: var(--accentColor);
+  padding-right: 5px;
 }
 .contact-box h2 > span {
   color: var(--accentColor);
