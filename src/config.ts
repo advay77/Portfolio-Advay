@@ -10,10 +10,10 @@ export const config = {
         email: "advayanand87@gmail.com",
         location: "India"
     },
-   about: {
-    title: "About Me",
-    description: `Hi Everyone, I am Advay Anand from India . Intern  in  Crensa.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
-},
+    about: {
+        title: "About Me",
+        description: `Hi Everyone, I am Advay Anand from India . Intern  in  Crensa.\n\n"Frustration makes you a better coder 😉🫱🏻‍🫲🏻"\n\nAdvay`
+    },
     experiences: [
         {
             position: "Frontend Developer",
@@ -29,46 +29,46 @@ export const config = {
             technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "Docker", "Jira"]
         },
         {
-            position: "Full Stack Developer",
-            company: "ZeroDayArena",
-            period: "2nd September - Dec 2025",
-            location: "Delhi",
-            description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
+            position: "Technical Lead",
+            company: "Crensa",
+            period: "20th Dec - 20th Feb 2026",
+            location: "Prayagraj",
+            description: "Led the team on the development of the company's OTT platform for launch and marketing.",
             responsibilities: [
-                "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
-                "Implemented RESTful APIs and integrated third-party services",
+                "Led the team on the development of the company's OTT platform for launch and marketing",
                 "Built responsive user interfaces and optimized application performance",
-                "Worked on database design and backend architecture"
+                "Debugging and troubleshooting issues in the platform",
+
             ],
-            technologies: ["React", "Node.js", "Supabase", "Express", "JavaScript", "Typescript",]
+            technologies: ["React", "Typescript", "TailwindCSS", "Framer Motion", "GitBucket"]
         },
-{
-    position: "Freelance Full Stack Developer",
-    company: "Self-Employed",
-    period: "25th August – Present",
-    location: "Delhi / Remote",
+        {
+            position: "Freelance Full Stack Developer",
+            company: "Self-Employed",
+            period: "25th August – Present",
+            location: "Delhi / Remote",
 
-    description:
-        "Delivered full-stack solutions for 10+ clients, handling everything from UI/UX to backend, deployment, SEO, and performance optimization.",
+            description:
+                "Delivered full-stack solutions for 10+ clients, handling everything from UI/UX to backend, deployment, SEO, and performance optimization.",
 
-    responsibilities: [
-        "Built and deployed production-grade web applications for diverse clients",
-        "Created responsive, fast, and SEO-optimized websites",
-        "Developed secure APIs and integrated Supabase-based authentication",
-        "Handled hosting, domain setup, performance tuning, and maintenance"
-    ],
+            responsibilities: [
+                "Built and deployed production-grade web applications for diverse clients",
+                "Created responsive, fast, and SEO-optimized websites",
+                "Developed secure APIs and integrated Supabase-based authentication",
+                "Handled hosting, domain setup, performance tuning, and maintenance"
+            ],
 
-    technologies: [
-        "React",
-        "Node.js",
-        "Supabase",
-        "Express",
-        "JavaScript",
-        "TypeScript",
-        "TailwindCSS",
-        "Firebase"
-    ]
-}
+            technologies: [
+                "React",
+                "Node.js",
+                "Supabase",
+                "Express",
+                "JavaScript",
+                "TypeScript",
+                "TailwindCSS",
+                "Firebase"
+            ]
+        }
 
     ],
     projects: [
