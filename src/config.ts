@@ -31,7 +31,7 @@ export const config = {
         {
             position: "Technical Lead",
             company: "Crensa",
-            period: "20th Dec - 20th Feb 2026",
+            period: "20th Feb 2026",
             location: "Prayagraj",
             description: "Led the team on the development of the company's OTT platform for launch and marketing.",
             responsibilities: [
@@ -41,6 +41,21 @@ export const config = {
 
             ],
             technologies: ["React", "Typescript", "TailwindCSS", "Framer Motion", "GitBucket"]
+        },
+        {
+            position: "Software Engineering Intern",
+            company: "Vision Mentix Software",
+            period: "Present",
+            location: "Remote",
+            description: "Developement of the clients requirements and use of skills into the company environment",
+            responsibilities: [
+                "Making Figma and UI/UX for the clients",
+                "Making responsive and interactive user interfaces using Next.js",
+                "Optimizing website performance and ensuring cross-browser compatibility",
+                "Collaborating with design and backend teams to deliver high-quality features"
+
+            ],
+            technologies: ["Figma", "UI/UX", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion"]
         },
         {
             position: "Freelance Full Stack Developer",
