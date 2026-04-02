@@ -97,11 +97,11 @@ export const config = {
         },
         {
             id: 2,
-            title: "Go-Wheels (Car rental website)",
+            title: "Rretoriq",
             category: "Full Stack",
-            technologies: "TypeScript, Firebase, Tailwind CSS, Node.js, Express.js",
-            image: "/images/gowheels.png",
-            deployedLink: "https://www.gowheels.online/"
+            technologies: "TypeScript, Firebase, Tailwind CSS, Node.js, Express.js,Gemini API",
+            image: "/images/rretoriq.png",
+            deployedLink: "https://www.rretoriq.com/"
         },
         {
             id: 3,
