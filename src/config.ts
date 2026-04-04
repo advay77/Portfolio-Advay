@@ -18,7 +18,7 @@ export const config = {
         {
             position: "Frontend Developer",
             company: "Growbinar",
-            period: "June 1st - July 2025",
+            period: "Jun 2025 - Jul 2025",
             location: "Remote",
             description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build their platform.",
             responsibilities: [
@@ -31,7 +31,7 @@ export const config = {
         {
             position: "Technical Lead",
             company: "Crensa",
-            period: "20th Feb 2026",
+            period: "Feb 2026 - Present",
             location: "Prayagraj",
             description: "Led the team on the development of the company's OTT platform for launch and marketing.",
             responsibilities: [
@@ -45,7 +45,7 @@ export const config = {
         {
             position: "Software Engineering Intern",
             company: "Vision Mentix Software",
-            period: "Present",
+            period: "Aug 2024 - Present",
             location: "Remote",
             description: "Developement of the clients requirements and use of skills into the company environment",
             responsibilities: [
@@ -60,7 +60,7 @@ export const config = {
         {
             position: "Freelance Full Stack Developer",
             company: "Self-Employed",
-            period: "25th August – Present",
+            period: "Aug 2023 - Present",
             location: "Delhi / Remote",
 
             description:
@@ -85,6 +85,26 @@ export const config = {
             ]
         }
 
+    ],
+    testimonials: [
+        {
+            name: "Sarah Jenkins",
+            role: "Founder, TechStart",
+            initials: "SJ",
+            content: "Advay transformed our MVP from a basic concept into a production-ready application. His eye for detail and commitment to performance is exceptional!"
+        },
+        {
+            name: "Rahul Verma",
+            role: "CEO, InnovateX",
+            initials: "RV",
+            content: "Working with Advay was incredible. He delivered our full-stack web app ahead of schedule and the code quality was impeccable. Highly recommended."
+        },
+        {
+            name: "Emily Chen",
+            role: "Marketing Director",
+            initials: "EC",
+            content: "The custom UI/UX design Advay implemented increased our user retention by 40%. His ability to blend aesthetics with flawless logic is rare."
+        }
     ],
     projects: [
         {

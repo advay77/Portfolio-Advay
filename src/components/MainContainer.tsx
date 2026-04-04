@@ -6,6 +6,7 @@ import Landing from "./Landing";
 import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 import Footer from "./Footer";
+import Testimonials from "./Testimonials";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import setSplitText from "./utils/splitText";
@@ -41,6 +42,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
         <WhatIDo />
         <Career />
         <Work />
+        <Testimonials />
         <Suspense fallback={<div>Loading....</div>}>
           <TechStack />
         </Suspense>
