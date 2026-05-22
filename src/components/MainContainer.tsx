@@ -1,6 +1,7 @@
 import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
 import About from "./About";
 import Career from "./Career";
+import AiSpecialization from "./AiSpecialization";
 import Cursor from "./Cursor";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
@@ -9,6 +10,7 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
+import Contact from "./Contact";
 import setSplitText from "./utils/splitText";
 
 const TechStack = lazy(() => import("./TechStack"));
@@ -41,11 +43,13 @@ const MainContainer = ({ children }: PropsWithChildren) => {
         <About />
         <WhatIDo />
         <Career />
+        <AiSpecialization />
         <Work />
         <Testimonials />
         <Suspense fallback={<div>Loading....</div>}>
           <TechStack />
         </Suspense>
+        <Contact />
         <Footer />
       </div>
     </div>

@@ -40,11 +40,62 @@
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.career-info-box p {
+.career-details {
   width: 40%;
   font-size: 18px;
   font-weight: 300;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.career-desc {
+  margin: 0;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.career-responsibilities {
+  margin: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+.career-responsibilities li {
+  position: relative;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #eae5ec;
+  margin-bottom: 8px;
+}
+.career-responsibilities li::before {
+  content: "•";
+  color: var(--accentColor);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.career-tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.tech-badge {
+  background: rgba(194, 164, 255, 0.08);
+  border: 1px solid rgba(194, 164, 255, 0.15);
+  color: var(--accentColor);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+.tech-badge:hover {
+  background: rgba(194, 164, 255, 0.18);
+  border-color: var(--accentColor);
+  box-shadow: 0 0 10px rgba(194, 164, 255, 0.25);
+  transform: translateY(-2px);
 }
 .career-info-in {
   display: flex;
@@ -146,7 +197,7 @@
   .career-info h3 {
     font-size: 40px;
   }
-  .career-info-box p {
+  .career-details {
     font-size: 14px;
   }
   .career-info-in {
@@ -154,7 +205,7 @@
     gap: 20px;
   }
 
-  .career-info-box p {
+  .career-details {
     width: 45%;
   }
 }
@@ -173,7 +224,7 @@
     margin-bottom: 70px;
   }
   .career-info-in,
-  .career-info-box p {
+  .career-details {
     width: 100%;
     padding-left: 10%;
     box-sizing: border-box;
@@ -202,7 +253,7 @@
     font-size: 33px;
   }
   .career-info-in,
-  .career-info-box p {
+  .career-details {
     padding-left: 5%;
   }
   .career-section {

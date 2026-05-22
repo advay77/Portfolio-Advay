@@ -22,7 +22,23 @@ const Career = () => {
                 </div>
                 <h3>{exp.period.includes("Present") ? "NOW" : exp.period.split(" - ")[1]}</h3>
               </div>
-              <p>{exp.description}</p>
+              <div className="career-details">
+                <p className="career-desc">{exp.description}</p>
+                {exp.responsibilities && exp.responsibilities.length > 0 && (
+                  <ul className="career-responsibilities">
+                    {exp.responsibilities.map((resp, idx) => (
+                      <li key={idx}>{resp}</li>
+                    ))}
+                  </ul>
+                )}
+                {exp.technologies && exp.technologies.length > 0 && (
+                  <div className="career-tech-tags">
+                    {exp.technologies.map((tech, idx) => (
+                      <span key={idx} className="tech-badge">{tech}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
           ))}
         </div>
