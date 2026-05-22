@@ -27,7 +27,7 @@
 - 📄 **Resume:** Instantly view or download my PDF resume.
 - 📱 **Responsive:** Flawlessly adapts to any device — mobile, tablet, or desktop.
 - 🌌 **Particle Effects:** Mesmerizing animated backgrounds.
-- ⚡ **Lightning Fast:** Optimized for a snappy user experience.
+- ⚡ **Lightning Fast:** Optimized for a good user experience.
 
 ---
 
