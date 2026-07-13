@@ -16,19 +16,6 @@ export const config = {
     },
     experiences: [
         {
-            position: "Frontend Developer",
-            company: "Growbinar",
-            period: "Jun 2025 - Jul 2025",
-            location: "Remote",
-            description: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build their platform.",
-            responsibilities: [
-                "Building responsive and interactive user interfaces using React.js and Docker",
-                "Optimizing application performance and ensuring cross-browser compatibility",
-                "Collaborating with design and backend teams to deliver high-quality features"
-            ],
-            technologies: ["React", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion", "Docker", "Jira"]
-        },
-        {
             position: "Technical Lead",
             company: "Crensa",
             period: "November 2025 - January 2026",
