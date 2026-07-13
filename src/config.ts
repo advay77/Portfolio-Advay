@@ -31,7 +31,7 @@ export const config = {
         {
             position: "Technical Lead",
             company: "Crensa",
-            period: "Feb 2026 - Present",
+            period: "November 2025 - January 2026",
             location: "Prayagraj",
             description: "Led the team on the development of the company's OTT platform for launch and marketing.",
             responsibilities: [
@@ -45,7 +45,7 @@ export const config = {
         {
             position: "Software Engineering Intern",
             company: "Vision Mentix Software",
-            period: "Aug 2024 - Present",
+            period: "Feb 2026 - June 2026",
             location: "Remote",
             description: "Developement of the clients requirements and use of skills into the company environment",
             responsibilities: [
@@ -56,6 +56,19 @@ export const config = {
 
             ],
             technologies: ["Figma", "UI/UX", "Next.js", "TailwindCSS", "JavaScript", "Framer Motion"]
+        },
+        {
+            position: "AI/ML Engineering Intern",
+            company: "Vanna Protocol",
+            period: "July 2026 - Present",
+            location: "Remote",
+            description: "AI Agent Development for data analysis and business process automation. Integrating data pipelines, fine-tuning LLMs, and deploying agents to handle customer queries and internal workflows. Implemented RAG-based agents with LangChain and Pinecone for advanced semantic search capabilities.",
+            responsibilities: [
+                "Developing AI agents for data analysis and business process automation",
+                "Integrating data pipelines, fine-tuning LLMs, and deploying agents to handle customer queries and internal workflows",
+                "Implemented RAG-based agents with LangChain and Pinecone for advanced semantic search capabilities"
+            ],
+            technologies: ["AI/ML", "RAG", "AI Agents", "Pipelines", "Automation", "Router"]
         },
         {
             position: "Freelance Full Stack Developer",
